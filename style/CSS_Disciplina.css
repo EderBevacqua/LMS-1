@@ -1,6 +1,6 @@
-#principal{
-    background: green;
-    width: 200px;
-    height: 200px;
-    text-align: center;
+.divDisciplinas {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
 }

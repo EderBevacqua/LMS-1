@@ -1,6 +1,159 @@
-.principal{
-    background: red;
-    width: 200px;
-    height: 200px;
-    text-align: center;
+@media only screen and (max-device-width: 900px) {
+    * { width:100%; }
+}
+
+.topo {
+    background:black;
+}
+
+* {
+    margin: 3px 3px 3px 3px;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+}
+
+#menu-trigger {
+    width: 30px;
+    height: 20px;
+    top: 10px;
+    margin-right: 20px;
+    right: 0;
+    cursor: pointer;
+}
+
+
+.menu-trigger div {
+    width: 30px;
+    height: 4px;
+    background: rgb(51, 51, 51) none repeat scroll 0% 0%;
+    margin-top: 3px;
+
+}
+
+
+.menu-hidde {
+    background: #808080 none repeat scroll 0% 0%;
+    width: 185px;
+    height: 100%;
+    position: absolute;
+    box-shadow: 1px 2px 3px #DDD;
+    left: -100%;
+    transition: left 0.5s ease 0s;
+    opacity: 0.8;
+}
+
+    .menu-hidde li {
+        color: #fff;
+        font-size: 20px;
+        padding: 18px;
+        cursor: pointer;
+    }
+
+    .menu-hidde ul {
+        position: absolute;
+        top: 31px;
+    }
+
+
+.header {
+    border-bottom: 3px solid;
+    margin-bottom: 30px;
+    border-color: darkgrey;
+}
+
+.rightHeader {
+    text-align: right;
+    padding: 0 10px 0 0;
+}
+
+.objCenter {
+    justify-content: center;
+}
+
+.bot-header {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #747704;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+    color: #bcbbbb;
+}
+
+h2 {
+    margin-bottom: 0;
+    color: #bcbbbb;
+}
+
+h3 {
+    color:#ff6a00;
+    margin-top: 12px;
+}
+
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.images {
+    padding: 20px 40px;
 }
