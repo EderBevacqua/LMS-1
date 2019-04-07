@@ -2,17 +2,32 @@
     * { width:100%; }
 }
 
-.topo {
-    background:black;
+.imgLogo {
+    float: left;
+    background: black;
 }
 
-* {
-    margin: 3px 3px 3px 3px;
-    padding: 0;
-    text-decoration: none;
-    list-style-type: none;
-    color: #000;
+.topoLogo {
+    
 }
+
+.tituloLogo {
+    padding: 10px;
+    text-align: center;
+}
+
+    .tituloLogo h1 {
+        color: rgba(36, 27, 27, 1);
+        text-shadow: 25px -15px 5px rgba(59, 59, 59, 0.50);
+    }
+
+    * {
+        margin: 3px 3px 3px 3px;
+        padding: 0;
+        text-decoration: none;
+        list-style-type: none;
+        color: #000;
+    }
 
 #menu-trigger {
     width: 30px;
@@ -69,7 +84,7 @@
 }
 
 .objCenter {
-    justify-content: center;
+    text-align: center;
 }
 
 .bot-header {
@@ -81,7 +96,6 @@
 
 h1 {
     font-size: 40px;
-    margin-bottom: 0;
     color: #bcbbbb;
 }
 
@@ -143,7 +157,7 @@ h3 {
 }
 
 .col-10 {
-    width: 83.33%;
+    width: 80%;
 }
 
 .col-11 {
@@ -156,4 +170,11 @@ h3 {
 
 .images {
     padding: 20px 40px;
+}
+
+.footer {
+    border-top: 3px solid;
+    margin-bottom: 30px;
+    border-color: darkgrey;
+    font-size:10px;
 }

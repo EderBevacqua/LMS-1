@@ -1,6 +1,9 @@
-.PdetalhesConteudo {
-    width: auto;
-    height: auto;
-    margin: auto;
-    padding: 5px 5px 5px 5px;
+.row-detalhesCurso {
+    width: 100%;
+    background: #2a2a2a;
+    text-align: center;
 }
+
+    .row-detalhesCurso h2 {
+        color: darkgrey;
+    }

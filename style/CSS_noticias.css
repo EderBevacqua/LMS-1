@@ -1,6 +1,14 @@
-#principal{
-    background: maroon;
-    width: 200px;
-    height: 200px;
+.row-noticias {
+    width: 100%;
+    background: #2a2a2a;
     text-align: center;
+}
+
+    .row-noticias h2 {
+        color:darkgray;
+    }
+
+.bloco-noticias {
+
+    background:rgba(224, 224, 224, 0.50);
 }

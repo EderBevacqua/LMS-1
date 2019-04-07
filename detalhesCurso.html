@@ -12,13 +12,16 @@
 <body class="grid">
     <div class="row header">
         <div class="col-6">
-            <div class="col-12">
+            <div class="col-12 topoLogo">
                 <a href="index.html">
-                    <img class="topo" src="img/logo.png">
+                    <img class="imgLogo" src="img/logo.png">
+
                 </a>
             </div>
-            <br />
-            <div class="col-12">
+            <div class="tituloLogo">
+                <h1>Faculdade</h1>
+            </div>
+            <br />            <div class="col-12">
                 MENU
                 <div class="menu-trigger" id="menu-trigger">
                     <div></div>
@@ -27,8 +30,11 @@
                 </div>
                 <nav class="menu-hidde" id="menu-hidde">
                     <ul>
-                        <li><a href="noticias.html">Noticias</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="listaCursos.html">Lista de Cursos</a></li>
+                        <li><a href="detalhesCurso.html">Detalhes Curso</a></li>
+                        <li><a href="disciplina.html">Disciplinas</a></li>
+                        <li><a href="noticias.html">Noticias</a></li>
                     </ul>
                 </nav>
             </div>
@@ -40,10 +46,8 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-4">
-            <h2>Detalhes dos cursos</h2>
-        </div>
+    <div class="row-detalhesCurso">
+        <h2>Detalhes dos cursos</h2>
     </div>
     <br />
     <div class="objCenter">
@@ -67,7 +71,8 @@
         </div>
         <br />
     </div>
-    <footer>
+    <footer class="footer">
+        © 2019
         <script src="js/javaScript.js" type="text/javascript"></script>
     </footer>
 </body>

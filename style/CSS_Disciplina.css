@@ -1,6 +1,9 @@
-.divDisciplinas {
-    width: auto;
-    height: auto;
-    margin: auto;
-    padding: 5px 5px 5px 5px;
+.row-disciplinas {
+    width: 100%;
+    background: #2a2a2a;
+    text-align: center;
 }
+
+    .row-disciplinas h2 {
+        color: darkgray;
+    }

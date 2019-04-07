@@ -1,6 +1,9 @@
-#principal{
-    background: pink;
-    width: 200px;
-    height: 200px;
+.row-listaCursos {
+    width: 100%;
+    background: #2a2a2a;
     text-align: center;
 }
+
+    .row-listaCursos h2 {
+        color:darkgray;
+    }

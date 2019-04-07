@@ -1,6 +1,4 @@
-#principal{
-    background: red;
-    width: 200px;
-    height: 200px;
-    text-align: center;
+.formLogin {
+    background: rgba(128, 128, 128, 0.50);
+    padding: 10px 10px 10px 10px;
 }
